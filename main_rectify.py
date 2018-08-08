@@ -494,20 +494,6 @@ def main():
                         acc_speed(each,0.5)
                     elif each.rect.width==big:
                         acc_speed(each,0.5)
-            #########################################boss登场
-          #  elif score==10000:
-
-
-
-
-
-
-
-
-
-
-
-
         if life_num:
             for i in range(life_num):
                 screen.blit(life_image,(width-10-(i+1)*life_image_rect.width,height-10-life_image_rect.height))
@@ -574,9 +560,3 @@ if __name__=='__main__':
         traceback.print_exc()
         pygame.quit()
         input()
-
-
-
-
-
-
